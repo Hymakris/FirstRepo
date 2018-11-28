@@ -1,0 +1,3 @@
+com\orm\codebind\model\Student.class
+com\orm\codebind\HibernateStandAloneDemo.class
+com\orm\codebind\HibernateUtil.class
