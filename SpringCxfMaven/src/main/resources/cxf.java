@@ -24,7 +24,7 @@ public class cxf extends CXFServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		System.out.println("Do Get method");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
@@ -32,7 +32,7 @@ public class cxf extends CXFServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		System.out.println("Do Post method");
 		doGet(request, response);
 	}
 
